@@ -10,8 +10,8 @@ module.exports = () => {
   return {
     mode: 'development',
     entry: {
-      main: './src/js/index.js',
-      install: './src/js/install.js'
+      main: 'main/client/index.html',
+      install: './main/client/src/js/install.js'
     },
     output: {
       filename: '[name].bundle.js',

@@ -4,7 +4,7 @@ import './database';
 import '../css/style.css';
 
 const main = document.querySelector('#main');
-main.innerHTML = '';
+main.innerHTML = 'main/client/index.html';
 
 const loadSpinner = () => {
   const spinner = document.createElement('div');

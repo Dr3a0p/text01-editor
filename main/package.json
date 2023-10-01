@@ -1,13 +1,13 @@
 {
-  "name": "JATE",
+  "name": "jate",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.html",
   "scripts": {
     "start:dev": "",
     "start": "",
     "server": "localhost:3000",
-    "build": "",
+    "build": "webpack",
     "install": "",
     "client": ""
   },
